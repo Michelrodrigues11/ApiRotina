@@ -35,6 +35,7 @@ namespace ApiRotina.Controllers
         [HttpPost]
         public async Task<ActionResult<Treino>> Post(Treino treino)
         {
+            treino.IdTreino = 0; // Let SQL Server auto-generate this value
             _context.TB_TREINOS.Add(treino);
             await _context.SaveChangesAsync();
             return CreatedAtAction("Get", new { id = treino.IdTreino }, treino);

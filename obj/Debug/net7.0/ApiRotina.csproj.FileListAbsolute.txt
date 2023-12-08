@@ -78,3 +78,8 @@ C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\obj\Debug\net7.0\refin
 C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\obj\Debug\net7.0\ApiRotina.pdb
 C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\obj\Debug\net7.0\ApiRotina.genruntimeconfig.cache
 C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\obj\Debug\net7.0\ref\ApiRotina.dll
+C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\bin\Debug\net7.0\publish\web.config
+C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\bin\Debug\net7.0\publish\ApiRotina.deps.json
+C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\bin\Debug\net7.0\publish\ApiRotina.runtimeconfig.json
+C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\bin\Debug\net7.0\publish\appsettings.Development.json
+C:\Users\PC do M & R\OneDrive\Área de Trabalho\ApiRotina\bin\Debug\net7.0\publish\appsettings.json

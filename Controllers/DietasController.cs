@@ -35,6 +35,7 @@ namespace ApiRotina.Controllers
         [HttpPost]
         public async Task<ActionResult<Dieta>> Post(Dieta dieta)
         {
+            dieta.IdDieta = 0
             _context.TB_DIETAS.Add(dieta);
             await _context.SaveChangesAsync();
             return CreatedAtAction("Get", new { id = dieta.IdDieta }, dieta);
