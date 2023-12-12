@@ -21,6 +21,20 @@ namespace ApiRotina.Controllers
             _context = context;
         }
 
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> Get()
+        {
+            try
+            {
+                List<Dieta> lista = await _context.TB_DIETAS.ToListAsync();
+                return Ok(lista);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Dieta>> Get(int id)
         {
@@ -35,7 +49,7 @@ namespace ApiRotina.Controllers
         [HttpPost]
         public async Task<ActionResult<Dieta>> Post(Dieta dieta)
         {
-            dieta.IdDieta = 0
+            dieta.IdDieta = 0;
             _context.TB_DIETAS.Add(dieta);
             await _context.SaveChangesAsync();
             return CreatedAtAction("Get", new { id = dieta.IdDieta }, dieta);
