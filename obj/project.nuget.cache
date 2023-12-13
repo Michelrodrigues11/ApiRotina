@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ldvKguHzhXrUxiITJ3Z1NcEa8RN2j2IEA8+WehRbhljOzKv2tqI57yX9xu3ITwH4RSLFk4OkvQZyNlxQXOsApg==",
+  "dgSpecHash": "87+ibDV3n5hU/DYZRVYZqcE/QbzMCtie5mBxiBcXPyRLH/D4fO3RuuCQK+DO/dZdncvsj+RC0Hn1hAHyjNgc9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC do M & R\\OneDrive\\Área de Trabalho\\ApiRotina\\ApiRotina.csproj",
+  "projectFilePath": "E:\\2 Módulo\\2DS_Michel\\DS\\ApiRotina\\ApiRotina.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC do M & R\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\PC do M & R\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
