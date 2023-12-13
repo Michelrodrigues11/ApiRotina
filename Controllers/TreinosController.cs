@@ -21,6 +21,19 @@ namespace ApiRotina.Controllers
             _context = context;
         }
 
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> Get()
+        {
+            try
+            {
+                List<Treino> lista = await _context.TB_TREINOS.ToListAsync();
+                return Ok(lista);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
         [HttpGet("{id}")]
         public async Task<ActionResult<Treino>> Get(int id)
         {
